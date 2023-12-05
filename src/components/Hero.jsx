@@ -2,8 +2,16 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Hero = () => {
+  const [typeEffect] = useTypewriter({
+    words: ["Mohamed", "Web Developer", "Web Designer", "Freelancer"],
+    loop: 0,
+    cursorStyle: "_",
+    deleteSpeed: 50,
+    typeSpeed: 100,
+  });
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,7 +24,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className="text-[#915EFF]">Mohamed</span>
+            Hi, I&apos;m <span className="text-[#915EFF]">{typeEffect}</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop websites, user <br className="sm:block hidden" />
