@@ -18,8 +18,8 @@ import {
   starbucks,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  fastPizza,
+  worldwise,
   threejs,
   creator,
 } from "../assets";
@@ -202,6 +202,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    projectLink: "https://worldwise325.netlify.app/",
     image: carrent,
     source_code_link: "https://github.com/",
   },
@@ -223,7 +224,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    projectLink: "https://fast-react-pizza325.netlify.app/",
+    image: fastPizza,
     source_code_link: "https://github.com/33b3ziz/fast-react-pizza",
   },
   {
@@ -244,7 +246,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    projectLink: "https://worldwise325.netlify.app/",
+    image: worldwise,
     source_code_link: "https://github.com/33b3ziz/WorldWise",
   },
 ];
