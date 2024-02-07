@@ -216,9 +216,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    projectLink: "https://worldwise325.netlify.app/",
+    projectLink: "https://the-wild-oasis-wheat-alpha.vercel.app/",
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/33b3ziz/the-wild-oasis",
   },
   {
     name: "Fast React Pizza",
